@@ -1,12 +1,16 @@
-import { initializeApp } from 'firebase/app';
-import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
-// Follow this pattern to import other Firebase services
-// import { } from 'firebase/<service>';
-
-// TODO: Replace the following with your app's Firebase project configuration
-const firebaseConfig = {
-  //...
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+  import { initializeApp } from "firebase/app";
+  import { getAuth } from "firebase/auth";
+  import { getFirestore } from "firebase/firestore";
+      
+  const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  };
+      
+  const app = initializeApp(firebaseConfig);
+  export const authentication = getAuth(app);
+  export const db = getFirestore(app);
