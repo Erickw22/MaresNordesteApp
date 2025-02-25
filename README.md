@@ -4,7 +4,7 @@
 
 ## 📕 Sobre
 
-Um aplicativo React Native para interação social, onde usuários podem se cadastrar, enviar mensagens em tempo real e compartilhar postagens. O app utiliza Firebase para autenticação e armazenamento de dados.
+Desenvolvimento de um aplicativo com o objetivo de integrar tecnologias de descarte de lixo inteligente nas praias. O sistema coleta dados sobre o lixo descartado e oferece benefícios aos usuários com base no material reciclado, como pontos que podem ser trocados por descontos em estabelecimentos parceiros.
 
 ## Funcionalidades
 
